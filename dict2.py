@@ -7,3 +7,4 @@ fourth = {}
 for member in (first,second,third):
     fourth.update(member)
     print(fourth)
+    print(fourth+5)
